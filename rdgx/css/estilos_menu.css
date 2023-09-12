@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: rgb(63, 63, 63);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 3px 0; 
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 20px; /* Increase the vertical padding */
+}
+
+.menu ul li a:hover {
+    background-color:rgb(223, 190, 99);
+}
+
+h3 {
+    text-align: center;
+    color: rgb(248, 197, 55);
+}
+
+body {
+    width: 1200px;
+    margin: 80px auto 0;
+}
+
+#cadastro {
+    margin: 2%;
+}
